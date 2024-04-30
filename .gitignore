@@ -1,0 +1,10 @@
+TaskMaster-BERT-20231118T221456Z-001.zip
+TaskMaster-BERT/model.safetensors
+TaskMaster-BERT/config.json
+TaskMaster-BERT2/model.safetensors
+TaskMaster-BERT2/special_tokens_map.json
+TaskMaster-BERT2/tokenizer_config.json
+TaskMaster-BERT2/vocab.txt
+TaskMaster-BERT2/config.json
+to-tag.csv
+to-tag.json
