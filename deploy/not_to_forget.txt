@@ -1,5 +1,5 @@
 Чтобы проверить приложение на локалхосте:
-Postman, метод POST, url http://10.98.131.28:5000/classify, body - raw, написать {"text": "развернуть модель"}
+Postman, метод POST, url http://10.98.131.28:5000/classify, body - raw, написать {"text": "купить молоко"}
 
 Чтобы собрать докер образ:
 В powershell пойти в C:\Users\189\Documents\todomaster_classification\deploy, команда docker build -t task_master_classificator .
@@ -8,6 +8,10 @@ Postman, метод POST, url http://10.98.131.28:5000/classify, body - raw, н�
 docker run -p 5000:5000 task_master_classificator
 
 Чтобы подклчиться к ВМ по SSH:
-ssh user@158.160.110.56
+ssh user@178.154.207.26
 
-scp task_master_classificator_image.tar user@158.160.110.56:/home/user
+Чтобы проверить приложение на сервере:
+Postman, метод POST, url http://178.154.207.26:5000/classify, body - raw, написать {"text": "купить молоко"}
+
+Чтобы запутить контейнер:
+docker run -p 5000:5000 --restart=always myapp
