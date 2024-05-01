@@ -1,0 +1,13 @@
+Чтобы проверить приложение на локалхосте:
+Postman, метод POST, url http://10.98.131.28:5000/classify, body - raw, написать {"text": "развернуть модель"}
+
+Чтобы собрать докер образ:
+В powershell пойти в C:\Users\189\Documents\todomaster_classification\deploy, команда docker build -t task_master_classificator .
+
+Чтобы запустить докер контейнер:
+docker run -p 5000:5000 task_master_classificator
+
+Чтобы подклчиться к ВМ по SSH:
+ssh user@158.160.110.56
+
+scp task_master_classificator_image.tar user@158.160.110.56:/home/user

@@ -8,3 +8,7 @@ TaskMaster-BERT2/vocab.txt
 TaskMaster-BERT2/config.json
 to-tag.csv
 to-tag.json
+yagpt_api_key.txt
+yagpt_login.txt
+deploy/bert_model.onnx
+deploy/task_master_classificator_image.tar
